@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+}
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+#box1{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(19, 10, 10);
+}
+#box2{
+    height: 100%;
+    width: 50%;
+    background-color: #bb550d;
+}
+#box3{
+    height: 85%;
+    width: 80%;
+    background-image: url("gettyimages-542099953-2048x2048.jpg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 56%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+nav{
+    height: 50px;
+    width: 600px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "gotham";
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 230px;
+    letter-spacing: 3px;
+}
+h1{
+    font-size: 95px;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: 1;
+}
+h2{
+    font-size: 85px;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', cursive;
+    color: white;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+button{
+    padding: 17px 40px;
+    font-size: 15px;
+    font-family: "gotham";
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    border: solid 3px white;
+    border-radius: 100px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 57%;
+    left: 11%;
+    transform: translate(-50%,-50%);
+}
+#model{
+    height: 280px;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    top: 83%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    border: solid 2px white;
+}
+#pic1{
+    height: 100%;
+    width: 50%;
+    background-image: url('pic.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#pic2{
+    height: 100%;
+    width: 50%;
+    background-image: url('gettyimages-1198441897-2048x2048.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+}
